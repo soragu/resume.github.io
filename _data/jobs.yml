@@ -1,0 +1,46 @@
+-   title: 高级软件工程师
+    company: 广州诺特软件开发有限公司
+    period: 2015 年 1 月 - 现在
+    skill:
+      - ReactJs, BackboneJs, RubyOnRails, Html5
+    description:
+      - 为产品需求提供技术实现方案
+      - 运用前端技术真正实现产品团队提供的界面模型及其交互
+      - 负责前端工程的构建，核心代码的实现
+      - 技术选型和代码质量的把关
+    performance:
+      - 运用DRY和SRP思想，能提高代码的重用率，灵活适应需求的变更和应用模块的扩展。
+      - 在SEO，页面性能优化方面亦有所建积累，把页面在Page speed的评分从原本70左右提高到90以上。访问量同比去年上升15%。<a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.theknot.com%2Fregistry">详细分析地址</a>
+      - 实现合理，规范的工程结构，使新入职的开发人员更容易理解整个工程的代码库，减少团队编码的冲突，同时也保证提交代码的质量。
+      - 实现项目技术架构的更新，BackboneJs + .NET => BackboneJs + Rails => ReactJs + NodeJs
+  
+-   title: 软件设计师
+    company: 广州海关-技术处
+    period: 2011 年 7 月 - 2015 年 1 月
+    skill:
+      - Jquery, Javascript, C#, .NET
+    description:
+      - 使用H5、CSS和Javascript技术实现用户界面
+      - 使用C#，ASP.NET实现MVC架构，Resful规范
+      - 运用SSRS技术设计报表服务
+      - 广州海关内部ERP系统的设计与开发
+      - 参与海关总署系统的设计与开发
+    performance:
+      - 运用当时最流行的技术（Bootstrap+jquery）取代原较落后的技术（切图+ASP.NET.控件），极大改善用户体验
+      - 使用EntityFramework实现ORM，用.NET实现Restful规范的API，降低开发和维护成本
+      - 从堆组件的开发方式到实现MVC架构，提高代码的可重用，极大降低开发成本
+      - 运用设计模式结合微软SSRS服务，实现通过数据模型自动生成报表展示代码的技术方案，极大提高生产效率，解决了海关业务中大量的报表需求。
+      - <a href="https://www.cnblogs.com/soragu/">我的博客园</a>发布一些有关SSRS技术的技巧的文章。
+
+-   title: 软件开发工程师
+    company: 广州元亨计算机科技有限公司
+    period: 2011 年 3 月 - 2011 年 7 月
+    skill:
+      - Jquery, Javascript, C#, .NET
+    description:
+      - 使用C#，ASP.NET等技术实现产品需求。
+      - 产品的界面实现，技术方案优化。
+    performance:
+      - 使用HTML+CSS+jquery取代一直原用的DevExpress控件
+      - 使用.NET实现Restful规范 的API接口
+      - 使用开源的技术，如Jquery在当时已经流行，社区资源丰富，可以更灵活地适应界面需求的变化，更重要是降低开发成本。

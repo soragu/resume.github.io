@@ -1,0 +1,43 @@
+<h3 class="section-title">工作经历</h3>
+<dl class="experience">
+    {% for job in site.data.jobs %}
+        <dt>
+            <p class="title">{{ job.title }}</p>
+            <p class="company">{{ job.company }}</p>
+            <p class="period">{{ job.period }}</p>
+            <div class="skill-block">
+                <p class="skill-title">技术栈</p>
+                <p class="skill">{{ job.skill }}</p>
+            </div>
+        </dt><!--
+        --><dd>
+            <p class="sub">工作职责</p>
+            <ul>
+                {% for item in job.description %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <p class="sub">主要贡献</p>
+            <ul>
+                {% for item in job.performance %}
+                    <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            <p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">教育背景</h3>
+<dl class="education">
+    {% for qualification in site.data.education %}
+        <dt>
+            <p class="title">{{ qualification.qualification }}</p>
+            <p class="company">{{ qualification.school }}</p>
+            <p class="period">{{ qualification.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ qualification.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
