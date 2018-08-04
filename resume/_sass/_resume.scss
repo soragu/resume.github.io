@@ -1,0 +1,71 @@
+// @name Resume
+// @description All resume styles
+dl {
+  margin-bottom: $spacer;
+}
+
+dt, dd {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: $spacer;
+  .sub {
+    font-size: 14px;
+    margin: 10px 5px;
+    color: #8e8e8e;
+  }
+  ul {
+    list-style: initial;
+  }
+}
+
+.skill-block {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+@media(min-width: 640px) {
+  dt, dd {
+    margin-bottom: 60px;
+  }
+
+  .experience {
+    dt {
+      width: 30%;
+      padding-right: ($spacer * 2);
+    }
+    dd {
+      width: 70%;
+    }
+  }
+
+  .education {
+    dt {
+      width: 30%;
+    }
+    dd {
+      width: 70%;
+    }
+  }
+
+  .skill-block {
+    margin-top: 60px;
+    font-style: italic;
+  }
+}
+
+.title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+a {
+  color: black!important;
+  background: rgba(245, 215, 110, .5);
+  transition: all linear .2s;
+
+  &:hover {
+    background: rgba(245, 215, 110, 1);
+    text-decoration: none;
+  }
+}
